@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - EmbodiedTech Robotics</title>
+    <meta name="description" content="Contact EmbodiedTech Robotics for product inquiries, pricing, OEM/ODM customization, and partnership opportunities.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="logo">
+                <span class="logo__icon">◆</span>
+                <span class="logo__text">EmbodiedTech <span class="logo__accent">Robotics</span></span>
+            </a>
+            <nav class="nav" id="nav">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">Home</a></li>
+                    <li><a href="index.html#products" class="nav__link">Products</a></li>
+                    <li><a href="solutions/security-patrol.html" class="nav__link">Solutions</a></li>
+                    <li><a href="about.html" class="nav__link">About</a></li>
+                    <li><a href="contact.html" class="nav__link nav__link--active">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <span class="section__label">Contact Us</span>
+                <h1>Get in Touch</h1>
+                <p>Tell us about your requirements — we'll respond within 24 hours.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="contact__grid">
+                    <div>
+                        <div class="contact__info-card">
+                            <h3>📍 Company Information</h3>
+                            <p>
+                                <strong style="color:#e0e0e0;">Company:</strong> Xiamen Ray Spung Technology Co., Ltd.<br>
+                                <strong style="color:#e0e0e0;">Brand:</strong> EmbodiedTech Robotics<br>
+                                <strong style="color:#e0e0e0;">Contact:</strong> Ethan Bright<br>
+                                <strong style="color:#e0e0e0;">Email:</strong> ethanbright0513@gmail.com<br>
+                                <strong style="color:#e0e0e0;">WhatsApp:</strong> +86 13124095756<br>
+                                <strong style="color:#e0e0e0;">FOB Port:</strong> Xiamen, China<br>
+                                <strong style="color:#e0e0e0;">Payment:</strong> T/T, L/C
+                            </p>
+                        </div>
+
+                        <div class="contact__info-card">
+                            <h3>📋 How to Order</h3>
+                            <ul>
+                                <li>1. Select product(s) and specify quantity</li>
+                                <li>2. Confirm customization needs (OEM/ODM)</li>
+                                <li>3. Receive formal quotation (FOB/CIF/DDP)</li>
+                                <li>4. Proforma invoice &amp; deposit payment</li>
+                                <li>5. Production &amp; quality inspection</li>
+                                <li>6. Shipping &amp; delivery</li>
+                            </ul>
+                        </div>
+
+                        <div class="contact__info-card">
+                            <h3>⏱ Lead Times</h3>
+                            <p>
+                                <strong style="color:#e0e0e0;">Samples:</strong> 3-5 days<br>
+                                <strong style="color:#e0e0e0;">Bulk Orders:</strong> 15-25 days (varies by order size)<br>
+                                <strong style="color:#e0e0e0;">Warranty:</strong> Standard 3 years, optional 5/7 years
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="contact__info-card">
+                            <h3>Send Us a Message</h3>
+                            <form class="form" id="contactForm" action="https://formspree.io/f/your-form-id" method="POST">
+                                <div class="form__group">
+                                    <label for="name">Your Name *</label>
+                                    <input type="text" id="name" name="name" required placeholder="John Smith">
+                                </div>
+                                <div class="form__group">
+                                    <label for="company">Company</label>
+                                    <input type="text" id="company" name="company" placeholder="Your Company Ltd.">
+                                </div>
+                                <div class="form__group">
+                                    <label for="email">Email Address *</label>
+                                    <input type="email" id="email" name="email" required placeholder="john@company.com">
+                                </div>
+                                <div class="form__group">
+                                    <label for="product">Product Interest</label>
+                                    <select id="product" name="product">
+                                        <option value="">Select a product...</option>
+                                        <option value="">Select a product...</option>
+                                        <option value="Unitree GO2 Robot Dog">Unitree GO2 Robot Dog</option>
+                                        <option value="Unitree B2 Industrial Robot Dog">Unitree B2 Industrial Robot Dog</option>
+                                        <option value="Unitree G1 Humanoid Robot">Unitree G1 Humanoid Robot</option>
+                                        <option value="Unitree H1/H1-2 Humanoid Robot">Unitree H1/H1-2 Humanoid Robot</option>
+                                        <option value="Unitree H2 Humanoid Robot">Unitree H2 Humanoid Robot</option>
+                                        <option value="Unitree G1-D Data Collection Robot">Unitree G1-D Data Collection Robot</option>
+                                        <option value="DeepBlue Healthcare Robot">DeepBlue Healthcare Robot</option>
+                                        <option value="DeepBlue Cleaning Robot">DeepBlue Cleaning Robot</option>
+                                        <option value="XingYan Patrol Robot">XingYan Patrol Robot</option>
+                                        <option value="Security Patrol Solution">Security Patrol Solution</option>
+                                        <option value="Other">Other / Multiple Products</option>
+                                    </select>
+                                </div>
+                                <div class="form__group">
+                                    <label for="message">Message *</label>
+                                    <textarea id="message" name="message" required placeholder="Tell us about your requirements — quantity, target market, customization needs, certification requirements..."></textarea>
+                                </div>
+                                <button type="submit" class="btn btn--primary btn--large" style="width:100%;justify-content:center;">Send Inquiry</button>
+                            </form>
+                            <p style="color:#555;font-size:12px;margin-top:12px;">* Required fields. We respect your privacy and will never share your information.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__brand">
+                <div class="logo"><span class="logo__icon">◆</span><span class="logo__text">EmbodiedTech <span class="logo__accent">Robotics</span></span></div>
+                <p class="footer__desc">Your reliable partner in embodied intelligent robot solutions.</p>
+            </div>
+            <div class="footer__links">
+                <h4>Products</h4>
+                <ul>
+                    <li><a href="products/unitree/go2.html">Unitree GO2 Dog</a></li>
+                    <li><a href="products/unitree/b2.html">Unitree B2 Industrial</a></li>
+                    <li><a href="products/unitree/g1.html">Unitree G1 Humanoid</a></li>
+                    <li><a href="products/unitree/h1.html">Unitree H1 Humanoid</a></li>
+                    <li><a href="products/xingyan/d1-max.html">XingYan D1 Max</a></li>
+                    <li><a href="solutions/security-patrol.html">Patrol Solution</a></li>
+                </ul>
+            </div>
+            <div class="footer__links">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer__contact">
+                <h4>Contact</h4>
+                <p>Xiamen, China<br>Contact: Ethan Bright<br>WhatsApp: +86 13124095756<br>FOB: Xiamen Port</p>
+            </div>
+        </div>
+        <div class="footer__bottom"><div class="container"><p>&copy; 2026 EmbodiedTech Robotics. All rights reserved.</p></div></div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const btn = this.querySelector('button[type="submit"]');
+            const originalText = btn.textContent;
+            btn.textContent = 'Sending...';
+            btn.disabled = true;
+            fetch(this.action, { method: 'POST', body: new FormData(this), headers: { 'Accept': 'application/json' } })
+                .then(response => {
+                    if (response.ok) {
+                        this.innerHTML = '<div style="text-align:center;padding:40px 0;"><div style="font-size:48px;margin-bottom:16px;color:#00d4ff;">✓</div><h3 style="color:#fff;margin-bottom:8px;">Message Sent Successfully!</h3><p style="color:#888;">We will get back to you within 24 hours.</p></div>';
+                    } else {
+                        throw new Error('Form submission failed');
+                    }
+                })
+                .catch(() => {
+                    btn.textContent = originalText;
+                    btn.disabled = false;
+                    alert('There was an error sending your message. Please try again or email us directly.');
+                });
+        });
+    </script>
+</body>
+</html>
