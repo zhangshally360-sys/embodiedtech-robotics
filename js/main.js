@@ -28,16 +28,13 @@ document.addEventListener('DOMContentLoaded', function() {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        entry.target.style.opacity = '1';
-        entry.target.style.transform = 'translateY(0)';
+        entry.target.classList.add('visible');
       }
     });
   }, { threshold: 0.1 });
 
-  document.querySelectorAll('.product-card, .feature-card').forEach(el => {
-    el.style.opacity = '0';
-    el.style.transform = 'translateY(30px)';
-    el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+  document.querySelectorAll('.product-card, .feature-card, .brand-header').forEach(el => {
+    el.classList.add('fade-in');
     observer.observe(el);
   });
 
